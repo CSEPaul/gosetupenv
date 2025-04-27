@@ -7,14 +7,10 @@ You should copy and paste the variables into your own environment profiles respe
 
 Differences - 
     .profile is used by linux upon startup only, any changes to this file after startup will only be recognised upon the next reboot.
+
     .bashrc can be modified more immeidately and at any time.
 
-        Perform 1 of the following actions.
 
-        - Reload the source file command
-            ` source ~/.bashrc`
-            
-        - Reload the terminal interface
 
 The install directory is controlled by the GOPATH and GOBIN environment variables. If GOBIN is set, binaries are installed to that directory. If GOPATH is set, binaries are installed to the bin subdirectory of the first directory in the GOPATH list. Otherwise, binaries are installed to the bin subdirectory of the default GOPATH ($HOME/go or %USERPROFILE%\go).
 
@@ -43,6 +39,14 @@ Path parameters for Golang
 Path parameters for Golang
 
     .bashrc
+
+## Reload the Path Variables
+Perform 1 of the following actions.
+
+        - Reload the source file command
+            ` source ~/.bashrc`
+            
+        - Reload the terminal interface
 
 
 ## Go Commands to check variables
