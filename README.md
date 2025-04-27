@@ -16,7 +16,23 @@ Differences -
             
         - Reload the terminal interface
 
-The install directory is controlled by the GOPATH and GOBIN environment variables. If GOBIN is set, binaries are installed to that directory. If GOPATH is set, binaries are installed to the bin subdirectory of the first directory in the GOPATH list. Otherwise, binaries are installed to the bin subdirectory of the default GOPATH ($HOME/go or %USERPROFILE%\go). 
+The install directory is controlled by the GOPATH and GOBIN environment variables. If GOBIN is set, binaries are installed to that directory. If GOPATH is set, binaries are installed to the bin subdirectory of the first directory in the GOPATH list. Otherwise, binaries are installed to the bin subdirectory of the default GOPATH ($HOME/go or %USERPROFILE%\go).
+
+The Go path is used to resolve import statements.
+It is implemented by and documented in the go/build package.
+
+The GOPATH environment variable lists places to look for Go code.
+On Unix, the value is a colon-separated string.
+On Windows, the value is a semicolon-separated string.
+On Plan 9, the value is a list.
+
+If the environment variable is unset, GOPATH defaults
+to a subdirectory named "go" in the user's home directory
+($HOME/go on Unix, %USERPROFILE%\go on Windows),
+unless that directory holds a Go distribution.
+Run "go env GOPATH" to see the current GOPATH.
+
+See https://golang.org/wiki/SettingGOPATH to set a custom GOPATH.
 
 ## Profile
 Path parameters for Golang
