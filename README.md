@@ -5,12 +5,11 @@ but as examples of how the varaibles should/could be mounted for a pretty standa
 
 You should copy and paste the variables into your own environment profiles respectively.
 
-Differences - 
+Differences -
+
     .profile is used by linux upon startup only, any changes to this file after startup will only be recognised upon the next reboot.
 
-    .bashrc can be modified more immeidately and at any time.
-
-
+    .bashrc can be modified more immediately and at any time.
 
 The install directory is controlled by the GOPATH and GOBIN environment variables. If GOBIN is set, binaries are installed to that directory. If GOPATH is set, binaries are installed to the bin subdirectory of the first directory in the GOPATH list. Otherwise, binaries are installed to the bin subdirectory of the default GOPATH ($HOME/go or %USERPROFILE%\go).
 
