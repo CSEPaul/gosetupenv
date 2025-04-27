@@ -65,11 +65,12 @@ Perform 1 of the following actions.
     `go help gopath`
 
 ## Bash Commands to check Path variables
-(Remember to check which 'user' you are. )
+Remember to check which 'user' you are.
 
+    `whoami`
     `printenv`
     `echo $PATH`
-    `whoami
+    
 
 
 ## Documentation
