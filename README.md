@@ -8,15 +8,20 @@ You should copy and paste the variables into your own environment profiles respe
 Differences - 
     .profile is used by linux upon startup only, any changes to this file after startup will only be recognised upon the next reboot.
     .bashrc can be modified more immeidately and at any time.
+
         Perform 1 of the following actions.
+
         - Reload the source file command
             ` source ~/.bashrc`
+            
         - Reload the terminal interface
 
 ## Profile
-Path parameters for Golang .profile
+Path parameters for Golang
+
     .profile
 
 ## Bashrc
-Path parameters for Golang .bashrc
+Path parameters for Golang
+
     .bashrc
