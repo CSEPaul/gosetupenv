@@ -39,7 +39,6 @@ Some useful commands to help.
     `find .profile`
     `find .bashrc`
     
-
 ## Profile
 Path parameters for Golang
 
@@ -65,9 +64,12 @@ Perform 1 of the following actions.
 
     `go help gopath`
 
-## Bash Commands to check variables
+## Bash Commands to check Path variables
+(Remember to check which 'user' you are. )
 
     `printenv`
+    `echo $PATH`
+    `whoami
 
 
 ## Documentation
