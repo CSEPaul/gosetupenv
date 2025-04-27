@@ -29,8 +29,16 @@ Path parameters for Golang
 
 ## Go Commands to check variables
 
-    `go env` 
+    `go env`
+
+    `go help gopath`
 
 ## Bash Commands to check variables
 
     `printenv`
+
+
+## Documentation
+
+Please see the following link for detailed information
+    `https://go.dev/doc/code`
