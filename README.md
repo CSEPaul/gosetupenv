@@ -29,6 +29,17 @@ Run "go env GOPATH" to see the current GOPATH.
 
 See https://golang.org/wiki/SettingGOPATH to set a custom GOPATH.
 
+## File Locations
+Each file should be present in the user directory home.
+Some useful commands to help.
+
+    `cd ~`
+    `ls -la`
+    `ls -ap | egrep -v /$`
+    `find .profile`
+    `find .bashrc`
+    
+
 ## Profile
 Path parameters for Golang
 
