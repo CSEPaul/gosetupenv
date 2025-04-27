@@ -25,3 +25,12 @@ Path parameters for Golang
 Path parameters for Golang
 
     .bashrc
+
+
+## Go Commands to check variables
+
+    `go env` 
+
+## Bash Commands to check variables
+
+    `printenv`
