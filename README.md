@@ -72,7 +72,7 @@ Remember to check which 'user' you are.
     `echo $PATH`
 
 ## Bash Script
-    In the file is a goenv.sh file that can help to setup the environment as required or simply copy the commands manually 
+    In the directory is a `goenv.sh` file that can help to setup the environment as required or simply copy the commands manually 
     for a more DIY approach. 
 
 
