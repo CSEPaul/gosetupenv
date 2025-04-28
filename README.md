@@ -75,6 +75,10 @@ Remember to check which 'user' you are.
     In the directory is a `goenv.sh` file that can help to setup the environment as required or simply copy the commands manually 
     for a more DIY approach. 
 
+    Remember to make it executable. 
+    `chmod + x goenv.sh`
+    `./goenv.sh`
+
 
 ## Documentation
 
