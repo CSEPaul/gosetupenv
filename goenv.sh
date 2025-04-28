@@ -17,9 +17,9 @@ echo -e "export GOROOT=/usr/local/go" >> ~/.bashrc
 echo -e "export GOPATH=\$HOME/go" >> ~/.bashrc
 echo -e "export GOBIN=\$GOPATH/bin" >> ~/.bashrc
 
-
-# Add the Go environment variables to the .profile file
+# Add a newline to the .profile file
 echo -e "" >> ~/.profile
+# Add the Go environment variables to the .profile file
 echo -e "# Go environment variables" >> ~/.profile
 echo -e "export PATH=\$PATH:/usr/local/go/bin" >> ~/.profile
 echo -e "export GOROOT=/usr/local/go" >> ~/.profile
